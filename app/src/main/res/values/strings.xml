@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FetchProject</string>
+    <string name="hiring_listid">Hiring ListId:-</string>
 </resources>

@@ -19,13 +19,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             />
-        <TextView
-            android:id="@+id/hiringListId"
-            tools:text="Hiring ListId"
-            style="@style/HiringItemTextViewStyle"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            />
+
         <TextView
             android:id="@+id/hiringName"
             tools:text="Hiring Name"

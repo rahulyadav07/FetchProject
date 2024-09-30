@@ -47,10 +47,14 @@ class FetchViewModel(private val fetchRepository: FetchRepository): ViewModel() 
         listIdOptions.addAll(
             hiringList.map { it.hiringListId.toString() }.distinct()
         )
+        listIdOptions.sort()
 
         return listIdOptions
     }
 
+    /**
+     * if user select any value from drop down then you need to filter the data gain from the list
+     */
     fun getSelectedDropDownList(positionName:String):List<HiringData> {
         return if (positionName == "All") {
             selectedList

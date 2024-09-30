@@ -129,7 +129,10 @@ class FetchActivity : AppCompatActivity() {
         }
     }
     private fun renderDropDownList(dropDownList:List<String>) {
-        arrayAdapter.addAll(dropDownList)
+        if (arrayAdapter.isEmpty){
+            arrayAdapter.addAll(dropDownList)
+        }
+
     }
 
     private fun injectDependencies()  {

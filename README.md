@@ -30,6 +30,9 @@ The project follows the **MVVM** (Model-View-ViewModel) architecture pattern:
    - scope
    - Qualifiers
 - ui
+  - activities
+  - viewmodel
+  - adapters
 - utils
 
 

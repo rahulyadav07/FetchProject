@@ -41,6 +41,9 @@ The project follows the **MVVM** (Model-View-ViewModel) architecture pattern:
 4. **Dagger** injects dependencies such as `RetrofitService` and `FetchRepository`.
 5. **Gson** deserializes JSON responses from the API.
 
+ ## Expected Behaviour vedio
+
+https://github.com/user-attachments/assets/031bc46b-0099-4c59-9219-1a9b1095174d
 ## How to Build the Project
 
 1. Clone the repository in Android Studio.
@@ -56,12 +59,9 @@ private fun injectDependencies() {
         .applicationModule(ApplicationModule(this))
         .build()
     applicationComponent.inject(this)
-}
-
-## Expected Behaviour 
+}``
 
 
-https://github.com/user-attachments/assets/e454c3db-feb0-49b9-8903-bfa72143dfd0
 
 
 

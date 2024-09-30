@@ -7,5 +7,5 @@ import javax.inject.Singleton
 @Singleton
 interface NetworkService {
     @GET("hiring.json")
-    suspend fun getData():List<HiringData>
+    suspend fun getData(): List<HiringData>
 }

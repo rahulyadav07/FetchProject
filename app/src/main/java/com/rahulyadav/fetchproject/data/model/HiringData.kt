@@ -10,5 +10,5 @@ data class HiringData(
     val hiringListId:Int? = null,
 
     @SerializedName("name")
-    val hiringName:Int? = null
+    val hiringName:String? = null
 )

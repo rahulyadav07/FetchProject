@@ -1,4 +1,4 @@
-package com.rahulyadav.fetchproject.ui.activity.fetchactivity
+package com.rahulyadav.fetchproject.ui.activity
 
 import android.os.Bundle
 import android.view.View
@@ -17,6 +17,8 @@ import com.rahulyadav.fetchproject.data.model.HiringData
 import com.rahulyadav.fetchproject.databinding.ActivityFetchBinding
 import com.rahulyadav.fetchproject.di.component.DaggerActivityComponent
 import com.rahulyadav.fetchproject.di.module.ActivityModule
+import com.rahulyadav.fetchproject.ui.adapter.FetchAdapter
+import com.rahulyadav.fetchproject.ui.viewmodel.FetchViewModel
 import com.rahulyadav.fetchproject.utils.gone
 import com.rahulyadav.fetchproject.utils.show
 import kotlinx.coroutines.launch

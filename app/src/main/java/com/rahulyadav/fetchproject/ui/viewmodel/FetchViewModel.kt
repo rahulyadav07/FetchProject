@@ -1,4 +1,4 @@
-package com.rahulyadav.fetchproject.ui.activity.fetchactivity
+package com.rahulyadav.fetchproject.ui.viewmodel
 
 
 import androidx.lifecycle.ViewModel

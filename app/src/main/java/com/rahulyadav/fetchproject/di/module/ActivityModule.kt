@@ -7,9 +7,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
 import com.rahulyadav.fetchproject.data.repository.FetchRepository
 import com.rahulyadav.fetchproject.di.ActivityContext
-import com.rahulyadav.fetchproject.ui.activity.fetchactivity.FetchViewModel
+import com.rahulyadav.fetchproject.ui.viewmodel.FetchViewModel
 import com.rahulyadav.fetchproject.base.ViewModelProviderFactory
-import com.rahulyadav.fetchproject.ui.activity.fetchactivity.FetchAdapter
+import com.rahulyadav.fetchproject.ui.adapter.FetchAdapter
 import dagger.Module
 import dagger.Provides
 import java.util.ArrayList

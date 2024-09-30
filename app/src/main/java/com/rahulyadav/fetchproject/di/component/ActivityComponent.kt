@@ -1,9 +1,8 @@
 package com.rahulyadav.fetchproject.di.component
 
 import com.rahulyadav.fetchproject.di.ActivityScope
-import com.rahulyadav.fetchproject.di.ApplicationContext
 import com.rahulyadav.fetchproject.di.module.ActivityModule
-import com.rahulyadav.fetchproject.ui.activity.fetchactivity.FetchActivity
+import com.rahulyadav.fetchproject.ui.activity.FetchActivity
 import dagger.Component
 
 

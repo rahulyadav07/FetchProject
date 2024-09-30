@@ -1,4 +1,4 @@
-package com.rahulyadav.fetchproject.ui.activity.fetchactivity
+package com.rahulyadav.fetchproject.ui.adapter
 
 
 import android.view.LayoutInflater
